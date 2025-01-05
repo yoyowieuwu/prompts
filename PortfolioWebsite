@@ -1,351 +1,284 @@
-Core Portfolio Features 
-Header and Navigation
-Fixed Header:
+# Core Portfolio Features
 
-Design a minimalist, fixed header with a logo, navigation menu, and a contact button.
+## Header and Navigation
 
-Use react-scroll for smooth scrolling to sections.
+### Fixed Header
+- Design a minimalist, fixed header with a logo, navigation menu, and a contact button.
+- Use `react-scroll` for smooth scrolling to sections.
+- Add an animated hamburger menu for mobile navigation using Framer Motion.
 
-Add an animated hamburger menu for mobile navigation using Framer Motion.
+### Custom Cursor
+- Implement a custom cursor using `react-custom-cursor`.
+- Add a mouse trailer effect using `react-mouse-particles`.
 
-Custom Cursor:
+### Keyboard Navigation
+- Use `react-focus-lock` for accessible keyboard navigation.
 
-Implement a custom cursor using react-custom-cursor.
+## Hero Section
 
-Add a mouse trailer effect using react-mouse-particles.
+### Animated Text Reveal
+- Use Framer Motion for animated text reveal effects.
 
-Keyboard Navigation:
+### Particle Background
+- Add a `particles.js` background for subtle, interactive visuals.
 
-Use react-focus-lock for accessible keyboard navigation.
+## About Section
 
-Hero Section
-Animated Text Reveal:
+### Professional Headshot and Bio
+- Include a professional headshot and a concise bio.
 
-Use Framer Motion for animated text reveal effects.
+### Scroll-Based Storytelling
+- Use the AOS library for scroll-based animations.
 
-Particle Background:
+## Skills Section
 
-Add a particles.js background for subtle, interactive visuals.
+### Animated Progress Bars
+- Use Chart.js for animated progress bars or radar charts.
 
-About Section
-Professional Headshot and Bio:
+### Skills Word Cloud
+- Add an interactive word cloud using `react-wordcloud`.
 
-Include a professional headshot and a concise bio.
+### Custom Tooltips
+- Use `react-tooltip` for skill explanations.
 
-Scroll-Based Storytelling:
+## Projects Showcase
 
-Use the AOS library for scroll-based animations.
+### Masonry Grid
+- Use `react-masonry-css` for a responsive masonry grid.
 
-Skills Section
-Animated Progress Bars:
+### Filterable Categories
+- Implement filterable categories for projects.
 
-Use Chart.js for animated progress bars or radar charts.
+### Modal Popups
+- Add modal popups for detailed project views.
 
-Skills Word Cloud:
+### Lazy Loading
+- Use `next/image` for lazy loading of project images.
 
-Add an interactive word cloud using react-wordcloud.
+### WebGL Transitions
+- Use Three.js for WebGL-powered transitions between projects.
 
-Custom Tooltips:
+## Testimonials
 
-Use react-tooltip for skill explanations.
+### Carousel
+- Use Swiper.js for a testimonials carousel with autoplay and pause on hover.
 
-Projects Showcase
-Masonry Grid:
+## Experience Timeline
 
-Use react-masonry-css for a responsive masonry grid.
+### Vertical Scroll Animations
+- Use the AOS library for scroll animations in the experience timeline.
 
-Filterable Categories:
+## Blog Section
 
-Implement filterable categories for projects.
+### File-Based Routing
+- Use Astro’s `src/pages` structure for easy navigation.
 
-Modal Popups:
+### Markdown Content
+- Use Markdown for blog posts with frontmatter for metadata.
 
-Add modal popups for detailed project views.
+### Content Collections
+- Implement Astro’s content collections for organized blog post management.
 
-Lazy Loading:
+### Dynamic Blog Post Pages
+- Create a `[slug].astro` page for individual blog post rendering.
 
-Use next/image for lazy loading of project images.
+### Static Site Generation (SSG)
+- Use Astro’s SSG for optimal performance and SEO.
 
-WebGL Transitions:
+### Blog Post Lists
+- Use `Astro.glob()` to query and display blog post lists on index and archive pages.
 
-Use Three.js for WebGL-powered transitions between projects.
+### Syntax Highlighting
+- Use Astro’s built-in support for syntax highlighting in code blocks.
 
-Testimonials
-Carousel:
+### RSS Feed
+- Implement an RSS feed using Astro’s RSS package.
 
-Use Swiper.js for a testimonials carousel with autoplay and pause on hover.
+### Tagging System
+- Create a tagging system with individual tag pages for content organization.
 
-Experience Timeline
-Vertical Scroll Animations:
+### Reading Time Estimation
+- Implement reading time estimation for each blog post.
 
-Use the AOS library for scroll animations in the experience timeline.
+### Table of Contents
+- Design a table of contents component for long-form articles.
 
-Blog Section
-File-Based Routing:
+### Related Posts
+- Add a related posts section at the end of each blog post.
 
-Use Astro’s src/pages structure for easy navigation.
+### Social Sharing Buttons
+- Implement social sharing buttons for each blog post.
 
-Markdown Content:
+### Newsletter Subscription
+- Design a newsletter subscription form with Astro’s form handling.
 
-Use Markdown for blog posts with frontmatter for metadata.
+### Comments System
+- Integrate a comments system using Disqus or Utterances.
 
-Content Collections:
+### Featured Posts Carousel
+- Design a featured posts carousel for the homepage.
 
-Implement Astro’s content collections for organized blog post management.
+### Custom Video Player
+- Create a custom video player component for video content.
 
-Dynamic Blog Post Pages:
+### Time to Read Progress Bar
+- Implement a "time to read" progress bar for blog posts.
 
-Create a [slug].astro page for individual blog post rendering.
+### Copy Code Button
+- Add a "copy code" button for code blocks.
 
-Static Site Generation (SSG):
+### Custom Blockquote
+- Design a custom blockquote component with styling options.
 
-Use Astro’s SSG for optimal performance and SEO.
+### Last Updated Indicator
+- Add a "last updated" indicator for blog posts.
 
-Blog Post Lists:
+## Contact Section
 
-Use Astro.glob() to query and display blog post lists on index and archive pages.
+### Contact Form
+- Add a contact form with client-side validation and reCAPTCHA integration.
 
-Syntax Highlighting:
+### Drag-and-Drop File Upload
+- Use `react-dropzone` for file uploads.
 
-Use Astro’s built-in support for syntax highlighting in code blocks.
+## Social Media Integration
 
-RSS Feed:
+### Floating Action Button
+- Add a floating action button for quick access to social media profiles.
 
-Implement an RSS feed using Astro’s RSS package.
+### Animated Icons
+- Use SVG animations and GSAP for animated social media icons.
 
-Tagging System:
+## Additional Features
 
-Create a tagging system with individual tag pages for content organization.
+### Dark Mode
+- Implement a dark mode toggle using custom hooks and `localStorage`.
 
-Reading Time Estimation:
+### Audio Player
+- Add a custom audio player for background music with play/pause toggle.
 
-Implement reading time estimation for each blog post.
+### Scroll-to-Top Button
+- Add a scroll-to-top button that appears after scrolling down.
 
-Table of Contents:
+### Microinteractions
+- Use `react-spring` for button and link animations.
 
-Design a table of contents component for long-form articles.
+### Custom Loading Screen
+- Use SVG animations for an animated logo loading screen.
 
-Related Posts:
+### Interactive Resume
+- Create an interactive timeline with expandable sections.
 
-Add a related posts section at the end of each blog post.
+### Custom 404 Page
+- Design a 404 page with animated illustrations using Lottie.
 
-Social Sharing Buttons:
+### Confetti Effect
+- Use `react-confetti` for achievements or special events.
 
-Implement social sharing buttons for each blog post.
+### Live Chat
+- Add a live chat widget using `react-chat-widget`.
 
-Newsletter Subscription:
+### Interactive Globe
+- Use `react-globe.gl` to show work locations.
 
-Design a newsletter subscription form with Astro’s form handling.
+# SEO Checklist (Fully Included and Enhanced)
 
-Comments System:
+## On-Page SEO
 
-Integrate a comments system using Disqus or Utterances.
+### Title and Meta Description
+- Use a clear, concise title tag and compelling meta description with primary keywords.
 
-Featured Posts Carousel:
+### Heading Tags
+- Use a single `<h1>` tag and structure content with `<h2>` to `<h6>` tags, incorporating relevant keywords.
 
-Design a featured posts carousel for the homepage.
+### URL Optimization
+- Optimize URLs and include primary keywords in the first 100 words.
 
-Custom Video Player:
+### Schema Markup
+- Implement schema markup using JSON-LD for rich snippets (FAQ, product, review, event).
 
-Create a custom video player component for video content.
+### Image Optimization
+- Optimize images with descriptive ALT tags and SEO-friendly file names.
 
-Time to Read Progress Bar:
+### Internal Linking
+- Add internal links with descriptive anchor texts.
 
-Implement a "time to read" progress bar for blog posts.
+### Breadcrumb Navigation
+- Implement breadcrumb navigation and markup.
 
-Copy Code Button:
+### Canonical Tags
+- Use canonical tags to avoid duplicate content issues.
 
-Add a "copy code" button for code blocks.
+### Pagination
+- Implement proper pagination with `rel="prev/next"` tags.
 
-Custom Blockquote:
+### AMP
+- Implement AMP for news/blog content.
 
-Design a custom blockquote component with styling options.
+## Technical SEO
 
-Last Updated Indicator:
+### XML Sitemap
+- Create and submit an XML sitemap.
 
-Add a "last updated" indicator for blog posts.
+### Robots.txt
+- Implement a `robots.txt` file to control crawler access.
 
-Contact Section
-Contact Form:
+### Mobile-Friendliness
+- Ensure the website is mobile-friendly and responsive.
 
-Add a contact form with client-side validation and reCAPTCHA integration.
+### HTTPS
+- Ensure the website uses HTTPS.
 
-Drag-and-Drop File Upload:
+### Page Speed
+- Optimize page speed by minimizing HTTP requests, using a CDN, and lazy loading.
 
-Use react-dropzone for file uploads.
+### Core Web Vitals
+- Optimize for LCP, FID, and CLS.
 
-Social Media Integration
-Floating Action Button:
+### JavaScript Handling
+- Ensure proper handling of JavaScript for search engine crawlers.
 
-Add a floating action button for quick access to social media profiles.
+### Dynamic Rendering
+- Use dynamic rendering for JavaScript-heavy pages if necessary.
 
-Animated Icons:
+## Advanced SEO
 
-Use SVG animations and GSAP for animated social media icons.
+### International Targeting
+- Use `hreflang` tags for multi-lingual support.
 
-Additional Features
-Dark Mode:
+### Voice Search Optimization
+- Optimize for voice search by using natural language and FAQ schema.
 
-Implement a dark mode toggle using custom hooks and localStorage.
+### Google Discover
+- Optimize for Google Discover by using high-quality images and engaging content.
 
-Audio Player:
+### Local SEO
+- Implement structured data for local business information.
 
-Add a custom audio player for background music with play/pause toggle.
+### Video SEO
+- Use schema markup for video content.
 
-Scroll-to-Top Button:
+### News SEO
+- Optimize for Google News using the `news_keywords` meta tag.
 
-Add a scroll-to-top button that appears after scrolling down.
+# Deployment and Maintenance
 
-Microinteractions:
+### Deployment
+- Deploy on Vercel or Netlify for optimal Next.js performance.
 
-Use react-spring for button and link animations.
+### Analytics
+- Integrate Google Analytics or other tracking tools.
 
-Custom Loading Screen:
+### Backup and Updates
+- Regularly back up the project and update dependencies.
 
-Use SVG animations for an animated logo loading screen.
+# Testing and Debugging
 
-Interactive Resume:
+### Cross-Browser Testing
+- Test the website on Chrome, Firefox, Safari, and Edge.
 
-Create an interactive timeline with expandable sections.
+### Performance Testing
+- Use tools like Lighthouse, PageSpeed Insights, and WebPageTest.
 
-Custom 404 Page:
-
-Design a 404 page with animated illustrations using Lottie.
-
-Confetti Effect:
-
-Use react-confetti for achievements or special events.
-
-Live Chat:
-
-Add a live chat widget using react-chat-widget.
-
-Interactive Globe:
-
-Use react-globe.gl to show work locations.
-
-2. SEO Checklist (Fully Included and Enhanced)
-On-Page SEO
-Title and Meta Description:
-
-Use a clear, concise title tag and compelling meta description with primary keywords.
-
-Heading Tags:
-
-Use a single <h1> tag and structure content with <h2> to <h6> tags, incorporating relevant keywords.
-
-URL Optimization:
-
-Optimize URLs and include primary keywords in the first 100 words.
-
-Schema Markup:
-
-Implement schema markup using JSON-LD for rich snippets (FAQ, product, review, event).
-
-Image Optimization:
-
-Optimize images with descriptive ALT tags and SEO-friendly file names.
-
-Internal Linking:
-
-Add internal links with descriptive anchor texts.
-
-Breadcrumb Navigation:
-
-Implement breadcrumb navigation and markup.
-
-Canonical Tags:
-
-Use canonical tags to avoid duplicate content issues.
-
-Pagination:
-
-Implement proper pagination with rel="prev/next" tags.
-
-AMP:
-
-Implement AMP for news/blog content.
-
-Technical SEO
-XML Sitemap:
-
-Create and submit an XML sitemap.
-
-Robots.txt:
-
-Implement a robots.txt file to control crawler access.
-
-Mobile-Friendliness:
-
-Ensure the website is mobile-friendly and responsive.
-
-HTTPS:
-
-Ensure the website uses HTTPS.
-
-Page Speed:
-
-Optimize page speed by minimizing HTTP requests, using a CDN, and lazy loading.
-
-Core Web Vitals:
-
-Optimize for LCP, FID, and CLS.
-
-JavaScript Handling:
-
-Ensure proper handling of JavaScript for search engine crawlers.
-
-Dynamic Rendering:
-
-Use dynamic rendering for JavaScript-heavy pages if necessary.
-
-Advanced SEO
-International Targeting:
-
-Use hreflang tags for multi-lingual support.
-
-Voice Search Optimization:
-
-Optimize for voice search by using natural language and FAQ schema.
-
-Google Discover:
-
-Optimize for Google Discover by using high-quality images and engaging content.
-
-Local SEO:
-
-Implement structured data for local business information.
-
-Video SEO:
-
-Use schema markup for video content.
-
-News SEO:
-
-Optimize for Google News using the news_keywords meta tag.
-
-3. Deployment and Maintenance
-Deployment:
-
-Deploy on Vercel or Netlify for optimal Next.js performance.
-
-Analytics:
-
-Integrate Google Analytics or other tracking tools.
-
-Backup and Updates:
-
-Regularly back up the project and update dependencies.
-
-4. Testing and Debugging
-Cross-Browser Testing:
-
-Test the website on Chrome, Firefox, Safari, and Edge.
-
-Performance Testing:
-
-Use tools like Lighthouse, PageSpeed Insights, and WebPageTest.
-
-Debugging:
-
-Use React DevTools and Next.js debugging tools.
+### Debugging
+- Use React DevTools and Next.js debugging tools.
