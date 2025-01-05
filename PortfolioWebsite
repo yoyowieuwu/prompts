@@ -1,0 +1,54 @@
+Create a responsive, single-page {profession} portfolio using React and Next.js
+Implement smooth scrolling with react-scroll for seamless section navigation
+Design a minimalist, fixed header with logo, navigation menu, and contact button
+Use custom hooks for dark mode toggle and persistent user preference
+Create a hero section with animated text reveal using Framer Motion
+Implement a particle.js background for subtle, interactive visual interest
+Design an about section with a professional headshot and concise bio
+Create a skills section with animated progress bars or radar chart using Chart.js
+Implement a projects showcase with filterable categories and modal popups
+Design a responsive masonry grid for project thumbnails using react-masonry-css
+Create custom cursor effects using react-custom-cursor for enhanced interactivity
+Implement lazy loading for project images using next/image component
+Design a testimonials carousel with autoplay and pause on hover using Swiper.js
+Create an experience timeline with vertical scroll animations using AOS library
+Implement a blog section with featured posts and infinite scroll
+Design a contact form with client-side validation and reCAPTCHA integration
+Create a floating action button for quick access to social media profiles
+Implement a custom 404 page with animated illustrations using Lottie
+Design a resume download button with hover effect and download tracking
+Create a custom loading screen with animated logo using SVG animations
+Implement keyboard navigation for accessibility using react-focus-lock
+Design a scroll-to-top button that appears after scrolling down
+Create microinteractions for buttons and links using react-spring
+Implement a language switcher for multi-lingual support using next-i18next
+Design an animated hamburger menu for mobile navigation using Framer Motion
+Create a custom audio player for background music with play/pause toggle
+Implement scroll-based parallax effects using react-parallax
+Design a skills word cloud with interactive hover effects using react-wordcloud
+Create a 3D cube navigation for mobile devices using Three.js
+Implement a live chat widget using react-chat-widget for client communication
+Design an animated favicon that changes on scroll or section change
+Create a custom mouse trailer effect using react-mouse-particles
+Implement a theme switcher with multiple color schemes using CSS variables
+Design an interactive resume timeline with expandable sections
+Create a projects showcase with WebGL-powered transitions using Three.js
+Implement a custom tooltip system for skill explanations using react-tooltip
+Design an animated background gradient using react-animated-css
+Create a typing effect for project descriptions using react-typed
+Implement a fullscreen project viewer with gesture controls for mobile
+Design a custom scrollbar with progress indicator using react-custom-scrollbars
+Create animated social media icons using SVG animations and GSAP
+Implement a drag-and-drop file upload for the contact form using react-dropzone
+Design an interactive globe showing work locations using react-globe.gl
+Create a custom cursor-based content reveal effect using react-tilt
+Implement a virtual business card with AR functionality using AR.js
+Design an animated skills tree with interconnected nodes using D3.js
+Create a custom audio visualizer for background music using Web Audio API
+Implement a scroll-based story-telling experience for the about section
+Design a custom PDF viewer for the resume using react-pdf
+Create animated loading skeletons for project cards using react-loading-skeleton
+Implement a custom video player for project demos using react-player
+Design an interactive network graph for skills using react-force-graph
+Create a custom confetti effect for achievements using react-confetti
+Implement a scroll-based text scramble effect using react-scramble
